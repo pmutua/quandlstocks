@@ -1,8 +1,8 @@
 {
   "name": "company-stocks",
   "version": "0.0.0",
-  "engines":{
-    "node":"14.17.5",
+  "engines": {
+    "node": "14.17.5",
     "npm": "6.14.14"
   },
   "scripts": {
