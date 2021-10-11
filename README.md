@@ -1,6 +1,37 @@
 # CompanyStocks
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+An application that allows a user to visualize the historical trend of end of day stock prices for publicly available companies. The application uses the [Quandl API](https://docs.data.nasdaq.com/)
+
+## Dependencies
+
+```json
+{  "@angular/animations": "~12.2.0",
+    "@angular/cdk": "^12.2.9",
+    "@angular/common": "~12.2.0",
+    "@angular/compiler": "~12.2.0",
+    "@angular/core": "~12.2.0",
+    "@angular/forms": "~12.2.0",
+    "@angular/material": "^12.2.9",
+    "@angular/platform-browser": "~12.2.0",
+    "@angular/platform-browser-dynamic": "~12.2.0",
+    "@angular/router": "~12.2.0",
+    "angular-highcharts": "^7.0.1",
+    "express": "^4.17.1",
+    "highcharts": "^9.2.2",
+    "mat-select-filter": "^2.3.9",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+}
+```
+
+## Installing Dependencies
+
+All the dependencies are in the the `package.json` all you'll do is run:
+
+`npm i`
 
 ## Development server
 
