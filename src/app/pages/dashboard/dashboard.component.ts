@@ -3224,9 +3224,7 @@ export class DashboardComponent implements OnInit {
     'ZOES',
     'ZQK',
     'ZTS',
-    'ZUMZ',
-    'X', //remove
-    'X', //remove
+    'ZUMZ'
   ];
 
   public filteredList = this.stockTickers.slice();
