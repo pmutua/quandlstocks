@@ -3270,7 +3270,7 @@ export class DashboardComponent implements OnInit {
     });
   }
 
-  convertToUnixTimeStamp(date: number) {
+  convertToUnixTimeStamp(date: string) {
     const convertedDate = moment(date).unix();
     return convertedDate * 1000;
   }
