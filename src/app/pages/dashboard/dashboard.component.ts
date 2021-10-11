@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { StockService } from 'src/app/_services/stock.service';
 import { StockChart } from 'angular-highcharts';
@@ -10,7 +9,6 @@ import moment from 'moment';
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent implements OnInit {
-  companies = <any>[];
   dataset = new Array();
   selectedValue = 'AA';
   stock = <StockChart>{};
@@ -3227,8 +3225,8 @@ export class DashboardComponent implements OnInit {
     'ZQK',
     'ZTS',
     'ZUMZ',
-    'X',
-    'X',
+    'X', //remove
+    'X', //remove
   ];
 
   public filteredList = this.stockTickers.slice();
