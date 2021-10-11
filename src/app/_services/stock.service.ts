@@ -19,8 +19,8 @@ export class StockService {
 
 
   getEndofDayUSStockPrices(ticker: string) {
-    const url = '/datasets/WIKI/'+`${ticker}`+'/data.json?api_key='+`${environment.quandiAPIKey}`;
-    return this.http.get<any>(`${environment.quandiBaseUrl}`+`${url}`, this.headers);
+    const url = '/datasets/WIKI/'+`${ticker}`+'/data.json?api_key='+`${environment.quandlAPIKey}`;
+    return this.http.get<any>(`${environment.quandlBaseUrl}`+`${url}`, this.headers);
   }
 
   
