@@ -1,6 +1,9 @@
 {
   "name": "company-stocks",
   "version": "0.0.0",
+  "engines":{
+    "node":"14.17.5"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
