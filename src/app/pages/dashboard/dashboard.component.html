@@ -1,0 +1,12 @@
+<h4>Select Company Stock Ticker Below:</h4>
+<mat-form-field>
+	<mat-select #sel placeholder="Select Company" (selectionChange)="onTickerChange($event)">
+		<mat-select-filter [array]="stockTickers" (filteredReturn)="filteredList =$event"></mat-select-filter>
+		<mat-option *ngFor="let item of filteredList" [value]="item">
+			{{item}}
+		</mat-option>
+	</mat-select>
+</mat-form-field>
+<pre>You have selected: {{selectedValue}}</pre>
+
+<div [chart]="stock"></div>
