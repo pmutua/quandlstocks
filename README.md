@@ -1,10 +1,10 @@
-# Conduit
+# QuanlStocks
 
-![QuandlStocks Banner](./assets/images/quandlstocks-title-banner.png)
+![QuandlStocks Banner](./src/assets/images/quandlstocks-title-banner.png)
 
 An online tool to  visualize historical stock trends for publicly available companies.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/pmutua/conduit/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/pmutua/quandlstocks/master/LICENSE)
 
 ## Download and Installation
 
@@ -17,7 +17,6 @@ To begin using this template, choose one of the following options to get started
 
 To run locally, run:
 
-
 Then in your terminal where your project is run:
 
 ```bash
@@ -25,11 +24,11 @@ Then in your terminal where your project is run:
     ng s
 ```
 
-The API is accessible at `http://localhost:4200`
+The application is accessible at `http://localhost:4200`
 
 ## Bugs and Issues
 
-Have a bug or an issue with this API? [Open a new issue](https://github.com/pmutua/quandlstocks/issues) here on GitHub.
+Have a bug or an issue with this application? [Open a new issue](https://github.com/pmutua/quandlstocks/issues) here on GitHub.
 
 ## About
 
@@ -48,7 +47,7 @@ QuandlStocks was created by and is maintained by **[Philip Mutua](https://twitte
 
 ## Copyright and License
 
-Code released under the [MIT](https://github.com/pmutua/conduit/blob/master/LICENSE) license.
+Code released under the [MIT](https://github.com/pmutua/quandlstocks/blob/master/LICENSE) license.
 
 ## Future Plans
 
