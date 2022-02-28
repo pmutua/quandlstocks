@@ -43,6 +43,7 @@ QuandlStocks was created by and is maintained by **[Philip Mutua](https://twitte
 
 * Angular (TypeScript, JavaScript, HTML, CSS )
 * Node.js
+* Express.js
 * Heroku
 
 ## Copyright and License
