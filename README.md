@@ -1,58 +1,59 @@
-# CompanyStocks
+# Conduit
 
-An application that allows a user to visualize the historical trend of end of day stock prices for publicly available companies. The application uses the [Quandl API](https://docs.data.nasdaq.com/)
+![QuandlStocks Banner](./assets/images/quandlstocks-title-banner.png)
 
-## Dependencies
+An online tool to  visualize historical stock trends for publicly available companies.
 
-```json
-{  "@angular/animations": "~12.2.0",
-    "@angular/cdk": "^12.2.9",
-    "@angular/common": "~12.2.0",
-    "@angular/compiler": "~12.2.0",
-    "@angular/core": "~12.2.0",
-    "@angular/forms": "~12.2.0",
-    "@angular/material": "^12.2.9",
-    "@angular/platform-browser": "~12.2.0",
-    "@angular/platform-browser-dynamic": "~12.2.0",
-    "@angular/router": "~12.2.0",
-    "angular-highcharts": "^7.0.1",
-    "express": "^4.17.1",
-    "highcharts": "^9.2.2",
-    "mat-select-filter": "^2.3.9",
-    "moment": "^2.29.1",
-    "path": "^0.12.7",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
-}
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/pmutua/conduit/master/LICENSE)
+
+## Download and Installation
+
+To begin using this template, choose one of the following options to get started:
+
+* Clone the repo: `git clone https://github.com/pmutua/quandlstocks.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/pmutua/quandlstocks)
+
+## Usage
+
+To run locally, run:
+
+
+Then in your terminal where your project is run:
+
+```bash
+    npm install
+    ng s
 ```
 
-## Installing Dependencies
+The API is accessible at `http://localhost:4200`
 
-All the dependencies are in the the `package.json` all you'll do is run:
+## Bugs and Issues
 
-`npm i`
+Have a bug or an issue with this API? [Open a new issue](https://github.com/pmutua/quandlstocks/issues) here on GitHub.
 
-## Development server
+## About
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+QuandlStocks is a tool that helps users to view historical stock trends for publicly available companies in the United States. Users simply search and select a company of choice then historical data is generated in the form of a line graph. The users can select  a date range and historical data is generated for the specific date range.  
 
-## Code scaffolding
+QuandlStocks was created by and is maintained by **[Philip Mutua](https://twitter.com/itsphilipmutua)**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* <https://twitter.com/itsphilipmutua>
+* <https://github.com/pmutua>
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Angular (TypeScript, JavaScript, HTML, CSS )
+* Node.js
+* Heroku
 
-## Running unit tests
+## Copyright and License
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Code released under the [MIT](https://github.com/pmutua/conduit/blob/master/LICENSE) license.
 
-## Running end-to-end tests
+## Future Plans
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Looking forward to make more improvements, like dashboard, landing page etc
 
-## Further help
+## Author
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Philip Mutua](https://twitter.com/itsphilipmutua)
