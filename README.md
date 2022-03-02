@@ -1,4 +1,4 @@
-# QuanlStocks
+# QuandlStocks
 
 ![QuandlStocks Banner](./src/assets/images/quandlstocks-title-banner.png)
 
